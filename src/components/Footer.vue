@@ -4,23 +4,24 @@
     
     <span v-if="isActivated && isNetworkSupported"> | </span>
 
-    <router-link to="/about">About</router-link><span> | </span>
+    <!--<router-link to="/about">About</router-link><span> | </span>-->
 
     <router-link v-if="isUserMinterAdmin || isUserRoyaltyFeeUpdater || isUserTldAdmin" to="/admin">Admin</router-link>
     <span v-if="isUserMinterAdmin || isUserRoyaltyFeeUpdater || isUserTldAdmin"> | </span>
 
+    <a target="_blank" href="https://4everland.org">Managed by 4everland</a> | 
     <a target="_blank" href="https://punk.domains">Powered by Punk Domains</a>
   </div>
 
   <div class="container-fluid text-center">
 
-    <a class="icons" href="https://docs.punk.domains" target="_blank"><i class="bi bi-journal-text"></i></a>
+    <a class="icons" target="_blank" href="https://4everland.medium.com/"><i class="bi bi-journal-text"></i></a>
 
-    <a class="icons" target="_blank" href="https://github.com/ppl-domains"><i class="bi bi-github"></i></a>
+    <a class="icons" target="_blank" href="https://github.com/4everland"><i class="bi bi-github"></i></a>
 
-    <a class="icons" target="_blank" href="https://discord.gg/CBQFAkP3Fb"><i class="bi bi-discord"></i></a>
+    <a class="icons" target="_blank" href="http://discord.gg/4everland"><i class="bi bi-discord"></i></a>
 
-    <a class="icons" target="_blank" href="https://twitter.com/joiedegarlic"><i class="bi bi-twitter"></i></a>
+    <a class="icons" target="_blank" href="https://twitter.com/4everland_org"><i class="bi bi-twitter"></i></a>
     
   </div>
 </template>

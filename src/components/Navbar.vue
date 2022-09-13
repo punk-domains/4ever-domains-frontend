@@ -15,19 +15,6 @@
         <div class="d-flex ms-auto">
 
           <div v-if="isActivated" class="navbar-menu-buttons">
-            <div class="btn-group mx-2 navbar-menu-btn navbar-other-item">
-              <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                Get Dishes NFTs
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                <li class="dropdown-item" @click="openUrl('https://stratosnft.io/collection/dish')">Dishes #1</li>
-                <li class="dropdown-item" @click="openUrl('https://stratosnft.io/collection/dish2')">Dishes #2</li>
-                <li class="dropdown-item" @click="openUrl('https://stratosnft.io/collection/dish3')">Dishes #3</li>
-                <li><hr class="dropdown-divider"></li>
-                <li class="dropdown-item" @click="openUrl('https://stratosnft.io/collection/people-domains')">.ppl domains</li>
-              </ul>
-            </div>
-
             <div class="btn-group mx-2 navbar-menu-btn">
               <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 {{getNetworkName}}

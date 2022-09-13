@@ -317,11 +317,11 @@ export default {
 }
 
 .domain-input > input {
-  color: #C71585;
+  color: #0D0F1A;
 }
 
 .domain-input > input::placeholder {
-  color: #C71585;
+  color: #0D0F1A;
   opacity: 0.7;
 }
 
@@ -352,7 +352,7 @@ tr:last-of-type td:last-of-type {
 }
 
 .table-light {
-  color: #C71585;
+  color: #0D0F1A;
 }
 
 .table-ppl {
@@ -364,7 +364,7 @@ tr:last-of-type td:last-of-type {
 
 .tld-addon {
   background-color: white;
-  color:#C71585;
+  color:#0D0F1A;
 }
 
 @media only screen and (max-width: 767px) {

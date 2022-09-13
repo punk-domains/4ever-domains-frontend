@@ -12,8 +12,8 @@
           <div class="col-md-6 offset-md-3">
             <input 
               class="form-control text-center clipboard"
-              :value="'https://ppl.domains/?ref=' + this.getNameOrAddress"
-              @click="copyToClipboard('https://ppl.domains/?ref=' + this.getNameOrAddress)"
+              :value="'https://domains.4everland.app/?ref=' + this.getNameOrAddress"
+              @click="copyToClipboard('https://domains.4everland.app/?ref=' + this.getNameOrAddress)"
               readonly
             >
           </div>
@@ -60,6 +60,6 @@ export default {
 <style scoped>
 .clipboard {
   cursor: pointer;
-  color: #C71585;
+  color: #0D0F1A;
 }
 </style>
