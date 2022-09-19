@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
       <router-link to="/" class="navbar-brand">
-        <img src="../assets/logo.png" alt="" width="30" class="d-inline-block navbar-img">
+        <img src="../assets/logo.png" alt="" width="30" class="d-inline-block align-baseline navbar-img">
         4ever Domains
       </router-link>
 
